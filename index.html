@@ -175,7 +175,8 @@
             height: 100vh;
             display: flex;
             align-items: center;
-            text-align: left;
+            justify-content: center; /* Added this */
+            text-align: center; /* Changed from left */
             color: var(--white-color);
             overflow: hidden;
         }
@@ -488,7 +489,6 @@
         
         @media (max-width: 768px) {
             .section-title { font-size: 2.5rem; }
-            .hero { text-align: center; }
             .hero-content { margin: 0 auto; }
             .services .services-grid { grid-template-columns: 1fr; }
             .navbar .nav-links { display: none; } /* On a real site, implement a hamburger menu */
@@ -782,4 +782,5 @@
     </script>
 </body>
 </html>
+
 
